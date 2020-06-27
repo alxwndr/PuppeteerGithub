@@ -1,0 +1,30 @@
+{
+  "name": "alxwndr Github Prettier",
+  "version": "1.0.0",
+  "description": "Web Scrapper with Chrome Headless & Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxwndr/PuppeteerGithub.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Chrome",
+    "Headless",
+    "Scrapping",
+    "Thal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxwndr/PuppeteerGithub/issues"
+  },
+  "homepage": "https://github.com/alxwndr/PuppeteerGithub#readme",
+  "dependencies": {
+    "mongoose": "^4.11.8",
+    "puppeteer": "1.9.0"
+  }
+}

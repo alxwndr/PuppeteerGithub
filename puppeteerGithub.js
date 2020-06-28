@@ -9,12 +9,12 @@ const nbUsers = process.argv[3]; // Nb user to scrap
 
 (async () => {
 
-  await github.initialize();
+    await github.initialize();
 
-  await github.login(login, psw);
+    await github.login(login, psw);
 
-  await github.search(value);
+    await github.search(value);
 
-  await github.getUsers(nbUsers);
+    await github.getUsers(nbUsers);
 
 })()

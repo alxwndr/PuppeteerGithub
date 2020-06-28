@@ -26,7 +26,7 @@ await github.starRepo('facebook/react')
 
 await github.close()
 ```
-
+And extracts usernames and emails to local database (MongoDB)
 ## Related
 
 -   [puppeteer-github-cli](https://github.com/transitive-bullshit/puppeteer-github-cli) - CLI for this module.

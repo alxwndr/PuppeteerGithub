@@ -6,6 +6,9 @@
 
 This module also has a [CLI](https://github.com/transitive-bullshit/puppeteer-github-cli).
 
+## Description
+This example signs you into GitHub account with provided credentials. Grabs run parameters (search query and how deep to search) from console. Crawls thrue pages automatically collecting info of GitHub users (name, username, social, email... ). Collected data transfers and saves in MongoDB collection.
+
 ## Install
 
 ```bash
